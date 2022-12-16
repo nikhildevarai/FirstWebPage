@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    margin: 4.5rem 14rem;
+    background-color: hsl(36, 100%, 99%);
+}
+
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 4vw;
+    height: 5vh;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 2rem;
+    font-size: 1.25rem;
+    color: hsl(236, 13%, 42%);
+}
+
+li a:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+li a {
+    font-family: "Inter";
+    font-size: 20px;
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
+    row-gap: 2rem;
+    margin-top: 16px;
+}
+
+.imagebox {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.image1 {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.newsbox {
+    grid-column: 3;
+    grid-row: 1/3;
+    background-color: hsl(240, 100%, 5%);
+    font-family: "Inter";
+    padding: 2rem 2rem 0 2rem;
+}
+
+.orange {
+    color: hsl(35, 77%, 62%);
+    font-size: 1.5rem;
+}
+
+div .news-text {
+    font-size: 3rem;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.White_title {
+    color: hsl(36, 100%, 99%);
+    font-size: 1.2rem;
+}
+
+.white_para {
+    color: hsl(233, 8%, 79%);
+    padding-bottom: 1px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.newsbox div {
+    padding: 8px;
+}
+
+.h1box {
+    grid-row: 2;
+}
+
+.h1box h1 {
+    font-family: "Inter";
+    font-weight: 1000;
+    font-size: 2.6rem;
+    margin: 0;
+}
+
+.h1-desc {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.description {
+    font-family: "Inter";
+    color: hsl(236, 13%, 42%);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.button {
+    background-color: rgb(255, 89, 0);
+    color: hsl(36, 100%, 99%);
+    font-size: 1rem;
+    font-family: "Inter";
+    padding: 0 30px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    height: 4rem;
+    border-radius: 20px;
+}
+
+.White_title,
+.button:hover {
+    cursor: pointer;
+}
+
+.White_title:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.2rem;
+    margin-top: 2.7rem;
+}
+
+.image-series {
+    width: 6rem;
+    height: 8rem;
+}
+
+.srno {
+    color: hsl(232, 6%, 72%);
+    margin: 0;
+    font-size: 2rem;
+}
+
+.table_title {
+    font-size: 20px;
+    color: hsl(240, 100%, 5%);
+    font-weight: 700;
+    margin-top: 0.4px;
+    white-space: nowrap;
+    padding-top: 10px;
+}
+
+.table_title:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.table_topic {
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+    white-space: nowrap;
+}
